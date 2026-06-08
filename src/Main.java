@@ -7,6 +7,11 @@ public class Main {
 
         Vehicle newVehicle = new Vehicle("V104", "Kia Sportage", 30);
 
+        System.out.println("\nPOST Operation Result:");
+        System.out.println(manager.addVehicle(newVehicle));
+
+        System.out.println("\nVehicles After POST:");
+        manager.displayVehicle();
 
     }
 }
