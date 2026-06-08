@@ -5,5 +5,8 @@ public class Main {
         System.out.println("Vehicles Before POST:");
         manager.displayVehicle();
 
+        Vehicle newVehicle = new Vehicle("V104", "Kia Sportage", 30);
+
+
     }
 }
