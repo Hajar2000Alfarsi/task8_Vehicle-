@@ -27,6 +27,6 @@ public class Vehicle {
                 "Vehicle: " +   "\n" +
                 "vehicleId: " + vehicleId + '\n' +
                 "vehicleModel: " + vehicleModel + '\n' +
-                "rentalPricePerDay: " + rentalPricePerDay;
+                "rentalPricePerDay: " + rentalPricePerDay + " OMR/day";
     }
 }

@@ -3,6 +3,7 @@ import java.util.ArrayList;
 public class VehicleManager {
     private ArrayList<Vehicle> vehicles = new ArrayList<>();
 
+
     //Initialize 3 sample of data
     public VehicleManager(){
         vehicles.add(new Vehicle("V101", "Toyota Corolla", 20));
@@ -27,6 +28,15 @@ public class VehicleManager {
                 + "Rental Price Per Day: " + vehicle.getRentalPricePerDay() + " OMR\n"
                 + "Status: Created\n"+
                 "***************************\n";
+    }
+
+
+    public void displayVehicle(){
+        System.out.println("----------------------\n" +
+                "Available Vehicles:" );
+        for (Vehicle v : vehicles) {
+            System.out.println(v);
+        }
     }
 
 }
